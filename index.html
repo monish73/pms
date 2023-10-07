@@ -43,7 +43,7 @@
                 <div class="text-1">Hello, Welcome to</div>
                 <div class="text-2">Promolecular Sciences</div>
                 <div class="text-3">We specialize in <span class="typing"></span></div>
-                <a href="https://drive.google.com/file/d/1diDBNNqGg3-ZrudwZ_zssVvdaIVlVZI_/view?usp=sharing">Brochure</a>
+                <a href="https://drive.google.com/file/d/1RrNFcGelWCWs3TwpitGkPIUjy-U7TBY2/view?usp=sharing">Brochure</a>
             </div>
           </div>
       </div>
@@ -63,7 +63,7 @@
                          We specialize in delivering efficient contract research services for the Biotech and Research sectors. Our focus extends to deploying life-science solutions using advanced technologies like Gene and mRNA synthesis through platforms such as BIOXP from Telesis Bio.
                           Our comprehensive R&D services span concept design, proof of concept, and scalable projects across diverse fields. We're committed to leveraging Next Generation Sequencing (NGS) technology for genome analysis of Indian strains, particularly in agriculture and dye industries.
                            This empowers us to discover and develop new enzymes and proteins for agriculture, veterinary, and human diagnostics. We also actively pursue technology and protocol development to enhance productivity in the Agricultural and Human Diagnostic industries.</p>
-                    <a href="https://drive.google.com/file/d/1diDBNNqGg3-ZrudwZ_zssVvdaIVlVZI_/view?usp=sharing">Download Brochure</a>
+                    <a href="https://drive.google.com/file/d/1RrNFcGelWCWs3TwpitGkPIUjy-U7TBY2/view?usp=sharing">Download Brochure</a>
                 </div>
             </div>
         </div>
@@ -74,46 +74,58 @@
         <div class="max-width">
             <h2 class="title" style="color: white;">Our services</h2>
             <div class="serv-content">
-                <div class="card">
-                    <div class="box">
+                <div class="card" id="myCard">
+                    <div class="box" onclick="toggleDetails('cardDetails1')">
                         <i class="fa-solid fa-dna"></i>
                         <div class="text" style="color: white;">Molecular Biology Services</div>
-                        <!-- <p>Gene synthesis, mRNA synthesis, Site-directed mutagenesi and many more...</p> -->
+                        <div class="details" id="cardDetails1" style="display: none;">
+                            <p style="color: white;">Gene synthesis up to 7200bp, mRNA synthesis up to 1800bp, custom variant DNA libraries, site-directed mutagenesis, cloning, expression, and purification of DNA fragments, protein purification service from expression clones provided (1-5 mg protein/sample), gDNA isolation and quantification, PCR amplification services, PCR amplification and cloning of desired genes or DNA fragments, RNA isolation and quantification, transgenic Plant Analysis by PCR, gene expression and validation using qPCR per sample (Real-Time PCR).</p>
+                        </div>                    
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
+                <div class="card" id="myCard">
+                    <div class="box" onclick="toggleDetails('cardDetails2')">
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <div class="text" style="color: white;">Identification and diagnostic services</div>
-                        <!-- <p>Bacterial identification, Fungal identification, Plant identification and many more...</p> -->
+                        <div class="details" id="cardDetails2" style="display: none;">
+                            <p style="color: white;">Bacterial identification, Fungal identification, Plant identification, Phytoplasma identification, Viroid identification, Mycoplasma identification, Insect identification.</p>
+                        </div>                   
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
+                <div class="card" id="myCard">
+                    <div class="box" onclick="toggleDetails('cardDetails3')">
                         <i class="fa-solid fa-shield-virus"></i>
                         <div class="text" style="color: white;">Polyclonal Antibody Production</div>
-                        <!-- <p>Protein purification services by Affinity chromatography, Antibody purification services, Western blotting services and many more...</p>  -->
+                        <div class="details" id="cardDetails3" style="display: none;">
+                            <p style="color: white;">Polyclonal Antibody Production, Custom Polyclonal antibody in mice</p>
+                        </div>                   
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
+                <div class="card" id="myCard">
+                    <div class="box" onclick="toggleDetails('cardDetails4')">
                         <i class="fa-solid fa-wheat-awn"></i>
                         <div class="text" style="color: white;">Agri Services</div>
-                        <!-- <p>Transgenic Plant Analysis Service, Marker Identiﬁcation, Marker validation and marker testing, Seed and plant health testing with respect to plant pathogens, Genome Editing Services and many more...</p>  -->
+                        <div class="details" id="cardDetails4" style="display: none;">
+                            <p style="color: white;">Cloning services for any plasmid vector of your choice with confirmation by DNA sequencing (insert or whole plasmid sequencing), Transgenic Plant Analysis Service: qPCR, RT-PCR, and Western Blotting, Marker Identification, Marker validation, and marker testing, Seed and plant health testing with respect to plant pathogens, Genome Editing Services.</p>
+                        </div>                    
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
+                <div class="card" id="myCard">
+                    <div class="box" onclick="toggleDetails('cardDetails5')">
                         <i class="fa-solid fa-book"></i>
                         <div class="text" style="color: white;">R&D Services</div>
-                        <!-- <p>Transgenic Plant Analysis Service, Marker Identiﬁcation, Marker validation and marker testing, Seed and plant health testing with respect to plant pathogens, Genome Editing Services and many more...</p>  -->
+                        <div class="details" id="cardDetails5" style="display: none;">
+                            <p style="color: white;">R&D projects up to proof of level concept (Design and development of protein/enzymes), Design and development of Human MDx assay for any target/pathogen/gene, Design and development of Veterinary MDX assay for any target/pathogen/gene, Design and development of Plant MDx assay for any target/pathogen/gene.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
+                <div class="card" id="myCard">
+                    <div class="box" onclick="toggleDetails('cardDetails6')">
                         <i class="fa-solid fa-seedling"></i>
                         <div class="text" style="color: white;">Protein related Service</div>
-                        <!-- <p>Transgenic Plant Analysis Service, Marker Identiﬁcation, Marker validation and marker testing, Seed and plant health testing with respect to plant pathogens, Genome Editing Services and many more...</p>  -->
+                    </div>
+                    <div class="details" id="cardDetails6" style="display: none;">
+                        <p style="color: white;">Protein purification services by Affinity chromatography for tagged proteins – His tag or Protein A, Antibody purification services, Western blotting services, SDS PAGE analysis, Protein or antibody conjugation, Peptide Synthesis Service (pure > 95%).</p>
                     </div>
                 </div>
                </div>
@@ -199,7 +211,7 @@
                 <div class="card">
                     <div class="box">
                         <img src="images/profile-3.jpg" alt="">
-                        <div class="text" style="color: white;">Dr. Hemalathǎ</div>
+                        <div class="text" style="color: white;">Dr. Hemalatha</div>
                         <p style="color: white;">Operations Director</p>
                     </div>
                 </div>
@@ -238,23 +250,23 @@
                             </div>
                         </div>
                         <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="https://maps.app.goo.gl/xfeSUx5sEqNH8WiU7"><i class="fas fa-map-marker-alt"></i></a>
                             <div class="info">
                                 <div class="head">Address</div>
-                                <a href="https://maps.app.goo.gl/xfeSUx5sEqNH8WiU7"><div class="sub-title">#18, 6th cross, Raghavendra Rao Lay out, Tumkur Road, Yeshwanthpur,Bengaluru -560022 </div></a>
+                                <a href="https://maps.app.goo.gl/xfeSUx5sEqNH8WiU7"><div class="sub-title">Yeshwanthpur, Bengaluru-560022</div></a>
                             </div>
                         </div>
                         <div class="row">
-                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@promolecularsciences.com"><i class="fas fa-envelope"></i></a>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">info@promolecularsciences.com</div>
+                                <a href="mailto:info@promolecularsciences.com"><div class="sub-title">info@promolecularsciences.com</div></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column right">
-                    <div class="text">Message me</div>
+                    <div class="text">Message us</div>
                     <form class="contact-form" action="https://formspree.io/f/mwkdwzln" method="POST">
                         <div class="fields">
                             <div class="field name">
@@ -281,7 +293,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span style="color: white;">Created By <a href="https://monishv.netlify.app/">Monish V</a> | <span class="far fa-copyright"></span> 2023   All rights reserved.</span>
+        <span style="color: white;">Created By <a href="">Monish V</a> | <span class="far fa-copyright"></span> 2023   All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>

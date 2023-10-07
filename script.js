@@ -1,3 +1,13 @@
+function toggleDetails(cardId) {
+    var details = document.getElementById(cardId);
+    if (details.style.display === "none" || details.style.display === "") {
+        details.style.display = "block";
+    } else {
+        details.style.display = "none";
+    }
+}
+
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script

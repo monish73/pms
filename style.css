@@ -261,7 +261,7 @@ section .title::after{
 
 /* services section styling */
 .services, .teams{
-    color:#fff;
+    /* color:#fff; */
     background: #002c6b;
 }
 .services .title::before,
@@ -424,7 +424,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "what we're made of";
+    content: "what's within";
 }
 .teams .carousel .card{
 
